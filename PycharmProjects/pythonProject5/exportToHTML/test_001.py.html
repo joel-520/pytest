@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>test_001.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080; font-style: italic;}
+.s1 { color: #000000;}
+.s2 { color: #000080; font-weight: bold;}
+.s3 { color: #008080; font-weight: bold;}
+.s4 { color: #0000ff;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+test_001.py</font>
+</center></td></tr></table>
+<pre><span class="s0">&quot;&quot;&quot; 
+send_method.py 文件说明： 
+1，封装接口请求方式 
+    根据项目接口文档提供的内容进行封装 
+    不同的项目，sendmethod也不太一样，如请求体格式等。 
+2.封装思路-结合接口三要素 
+    请求方式+请求地址 
+    请求参数 
+    返回值 
+3.以学生管理系统SMS为例: 
+    结合学生管理系统项目的接口文档，封装SendMethod类 
+ 
+&quot;&quot;&quot;</span>
+<span class="s0"># 导入所需模块</span>
+<span class="s2">import </span>requests
+<span class="s2">import </span>json
+
+
+<span class="s0"># 封装请求模块</span>
+<span class="s2">class </span>SendMethod:
+    <span class="s0">&quot;&quot;&quot; 
+        结合学生管理系统SMS，请求方式包括如下: 
+            get ---&gt; parmas标准请求参数 
+            post---&gt;请求参数类型 json 
+            put ---&gt;请求参数类型 json 
+            delete ---&gt; parmas标准请求参数 
+    &quot;&quot;&quot;</span>
+
+    <span class="s0"># 定义该方法为静态方法</span>
+    @staticmethod
+    <span class="s2">def </span>send_method(method, url, parmas=<span class="s2">None</span>, json=<span class="s2">None</span>):
+        <span class="s0">&quot;&quot;&quot; 
+        封装适用于学生管理系统项目的接口请求 
+        :param method: 请求方式 
+        :param url: 请求地址 
+        :param parmas: get和delete请求参数 
+        :param json: post和put请求参数 
+        :param headers: 请求头 
+        :return: 
+        &quot;&quot;&quot;</span>
+        <span class="s0"># 定义发送请求的方法</span>
+        <span class="s2">if </span>method == <span class="s3">&quot;get&quot; </span><span class="s2">or </span>method == <span class="s3">&quot;delete&quot;</span>:
+            response = requests.request(method=method, url=url, params=parmas)
+        <span class="s2">elif </span>method == <span class="s3">&quot;post&quot; </span><span class="s2">or </span>method == <span class="s3">&quot;put&quot;</span>:
+            response = requests.request(method=method, url=url, json=json)
+            <span class="s0"># 如果有不同的请求头，还可以继续添加接收的参数</span>
+            <span class="s0"># response = requests.request(method=method, url=url, json=json, data=data, files=data)</span>
+        <span class="s2">else</span>:
+            <span class="s0"># 这里是简单处理，完成封装需要加上异常处理。</span>
+            response = <span class="s2">None</span>
+            print(<span class="s3">&quot;请求方式不正确&quot;</span>)
+
+        <span class="s0"># 如果请求方式是delete，只返回状态码</span>
+        <span class="s0"># 这是根据项目接口文档中delete方法的返回规则定的。</span>
+        <span class="s2">if </span>method == <span class="s3">&quot;delete&quot;</span>:
+            <span class="s2">return </span>response.status_code
+        <span class="s2">else</span>:
+            <span class="s0"># 项目中接口的返回值是json格式的，就可以用json()进行格式化返回结果。</span>
+            <span class="s2">return </span>response.json()
+
+    @staticmethod
+    <span class="s2">def </span>json_2_python(res):
+        <span class="s0">&quot;&quot;&quot; 
+        格式化返回数据 
+        :param res:接口返回的数据 
+        :return: 
+        &quot;&quot;&quot;</span>
+        <span class="s2">return </span>json.dumps(res, indent=<span class="s4">2</span>, ensure_ascii=<span class="s2">False</span>)
+
+
+<span class="s2">if </span>__name__ == <span class="s3">'__main__'</span>:
+    method = <span class="s3">&quot;post&quot;</span>
+    url = <span class="s3">&quot;http://127.0.0.1:8000/api/departments/&quot;</span>
+    data = {
+        <span class="s3">&quot;data&quot;</span>: [
+            {
+                <span class="s3">&quot;dep_id&quot;</span>: <span class="s3">&quot;T02&quot;</span>,
+                <span class="s3">&quot;dep_name&quot;</span>: <span class="s3">&quot;接口测试学院&quot;</span>,
+                <span class="s3">&quot;master_name&quot;</span>: <span class="s3">&quot;Test-Master&quot;</span>,
+                <span class="s3">&quot;slogan&quot;</span>: <span class="s3">&quot;Here is Slogan&quot;</span>
+            }
+        ]
+    }
+    res = SendMethod.send_method(method=method, url=url, json=data)
+    <span class="s0"># print(res)</span>
+    print(SendMethod.json_2_python(res))
+
+    <span class="s0"># method = &quot;get&quot;</span>
+    <span class="s0"># params = {&quot;$dep_id_list&quot;: &quot;1, 2, 3&quot;}</span>
+    <span class="s0"># res = SendMethod.send_method(method=method, url=url, json=data)</span>
+    <span class="s0"># print(SendMethod.json_2_python(res))</span>
+</pre>
+</body>
+</html>

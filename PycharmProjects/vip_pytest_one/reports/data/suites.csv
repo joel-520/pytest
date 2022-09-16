@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 20 21:46:56 CST 2022","Wed Apr 20 21:46:57 CST 2022","261","testcases.product_manager","test_product","TestProduct","","","获取鉴权码access token接口3","用例的描述1"
+"passed","Wed Apr 20 21:46:56 CST 2022","Wed Apr 20 21:46:56 CST 2022","305","testcases.product_manager","test_product","TestProduct","","","获取鉴权码access token接口2","用例的描述1"
+"passed","Wed Apr 20 21:46:56 CST 2022","Wed Apr 20 21:46:56 CST 2022","381","testcases.product_manager","test_product","TestProduct","","","获取鉴权码access token接口1","用例的描述1"

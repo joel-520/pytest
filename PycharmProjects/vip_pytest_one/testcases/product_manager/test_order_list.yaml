@@ -1,0 +1,16 @@
+-
+  story: 码尚商城获取订单列表接口
+  title: 验证订单列表接口
+  request:
+    method: POST
+    url: ?s=order/index
+    params:
+      application: app
+      application_client_type: h5
+      token: ${read_yaml(token)}
+    data:
+     page: 1
+     keywords: ""
+     status: "-1"
+     is_more: 143
+  validate: null

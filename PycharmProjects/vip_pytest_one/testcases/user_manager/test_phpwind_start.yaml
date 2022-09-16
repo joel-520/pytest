@@ -1,0 +1,9 @@
+-
+  story: pypwind首页接口
+  title: 验证pypwind首页接口
+  request:
+    method: GET
+    url: http://47.107.116.139/phpwind/
+  extract:
+    csrf_token: 'name="csrf_token" value="(.*?)"'
+  validate: null

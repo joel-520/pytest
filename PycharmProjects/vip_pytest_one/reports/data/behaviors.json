@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "中国移动SAAS营销管理瓶体",
+    "children" : [ {
+      "name" : "用户管理模块",
+      "children" : [ {
+        "name" : "码尚教育接口",
+        "children" : [ {
+          "name" : "获取鉴权码access token接口1",
+          "uid" : "8d9db1867b1f7b43",
+          "parentUid" : "c9e83b2d72f0f4018b441f8021e02613",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650462416141,
+            "stop" : 1650462416522,
+            "duration" : 381
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "获取鉴权码access token接口2",
+          "uid" : "936b1e2feadfa6e4",
+          "parentUid" : "c9e83b2d72f0f4018b441f8021e02613",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650462416529,
+            "stop" : 1650462416834,
+            "duration" : 305
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "获取鉴权码access token接口3",
+          "uid" : "3cdf8df305b67028",
+          "parentUid" : "c9e83b2d72f0f4018b441f8021e02613",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650462416841,
+            "stop" : 1650462417102,
+            "duration" : 261
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c9e83b2d72f0f4018b441f8021e02613"
+      } ],
+      "uid" : "3e80f08afa4e7cdba324b58e34d2ee68"
+    } ],
+    "uid" : "5e05faf0af02c27c02b56bd9c30efc8b"
+  } ]
+}

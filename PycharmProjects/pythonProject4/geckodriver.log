@@ -1,0 +1,370 @@
+1657958001305	geckodriver	INFO	Listening on 127.0.0.1:59789
+1657958004542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59790" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile3eqiqs"
+1657958005270	Marionette	INFO	Marionette enabled
+1657958005277	Marionette	INFO	Listening on port 59806
+WebDriver BiDi listening on ws://localhost:59790
+Read port: 59806
+1657958005578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile3eqiqs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59790/devtools/browser/dc4b9a23-00cb-4934-b58c-d378a974e52a
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1657958025068, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:545:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 699, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:checkUpload();'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:545:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 699, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:checkUpload();'
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967308/domwalker22, type getOffsetParent failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:202:56\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967308/pagestyle23, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonReflowInSelection@resource://devtools/client/inspector/inspector.js:1626:10\n_notifyWatchers@resource://devtools/shared/commands/resource/resource-command.js:793:24\nthrottledFunction@resource://devtools/shared/throttle.js:45:21\n_onResourceAvailable@resource://devtools/sh1657958807730	Marionette	INFO	Stopped listening on port 60126
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+devtools/shared/event-emitter.js:330:18\nonPacket@resource://devtools/shared/protocol/Front.js:336:13\nonPacket@resource://devtools/client/devtools-client.js:482:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967308/pagestyle23, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:187:44\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Unable to find target with innerWindowId:4294967310"
+1657958535364	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967314/pagestyle41, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonReflowInSelection@resource://devtools/client/inspector/inspector.js:1626:10\n_notifyWatchers@resource://devtools/shared/commands/resource/resource-command.js:793:24\nthrottledFunction@resource://devtools/shared/throttle.js:45:21\n_onResourceAvailable@resource://devtools/shared/commands/resource/resource-command.js:652:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonPacket@resource://devtools/shared/protocol/Front.js:336:13\nonPacket@resource://devtools/client/devtools-client.js:482:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967316/layout42, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967318/pagestyle41, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonReflowInSelection@resource://devtools/client/inspector/inspector.js:1626:10\n_notifyWatchers@resource://devtools/shared/commands/resource/resource-command.js:793:24\nthrottledFunction@resource://devtools/shared/throttle.js:45:21\n_onResourceAvailable@resource://devtools/shared/commands/resource/resource-command.js:652:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonPacket@resource://devtools/shared/protocol/Front.js:336:13\nonPacket@resource://devtools/client/devtools-client.js:482:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967318/pagestyle41, type isPositionEditable failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:195:50\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:545:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 699, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:checkUpload();'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:545:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2121:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 699, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:checkUpload();'
+console.error: (new Error("Connection closed, pending request to server0.conn1.windowGlobal4294967322/pagestyle23, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonReflowInSelection@resource://devtools/client/inspector/inspector.js:1626:10\n_notifyWatchers@resource://devtools/shared/commands/resource/resource-command.js:793:24\nlater@resource://devtools/shared/throttle.js:33:19\nnotify@resource://gre/modules/Timer.jsm:62:17\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn1.windowGlobal4294967322/pagestyle23, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonReflowInSelection@resource://devtools/client/inspector/inspector.js:1626:10\n_notifyWatchers@resource://devtools/shared/commands/resource/resource-command.js:793:24\nthrottledFunction@resource://devtools/shared/throttle.js:45:21\n_onResourceAvailable@resource://devtools/shared/commands/resource/resource-command.js:652:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonPacket@resource://devtools/shared/protocol/Front.js:336:13\nonPacket@resource://devtools/client/devtools-client.js:482:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1657961887443	Marionette	INFO	Stopped listening on port 59806
+ment@chrome://remote/content/marionette/interaction.js:179:31
+1657959843055	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657959845797	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1657959846115, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657959947794	Marionette	INFO	Stopped listening on port 62031657959948291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilex9jpp9"
+1657959948825	Marionette	INFO	Marionette enabled
+1657959948831	Marionette	INFO	Listening on port 62263
+WebDriver BiDi listening on ws://localhost:62245
+Read port: 62263
+1657959949112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilex9jpp9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62245/devtools/browser/dbbcf8d8-ed54-403b-acf1-a2570a0291af
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1657959967984, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657960089258	Marionette	INFO	Stopped listening on port 62263
+!!! error running onStopped callback: TypeError: callback is not a function
+1657960191376	geckodriver	INFO	Listening on 127.0.0.1:62601
+1657960194443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62602" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileRWNeIs"
+1657960195323	Marionette	INFO	Marionette enabled
+1657960195330	Marionette	INFO	Listening on port 62616
+Read port: 62616
+WebDriver BiDi listening on ws://localhost:62602
+1657960195606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileRWNeIs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62602/devtools/browser/93c7b467-e0b9-44e0-8e3b-0077b565f6af
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657960214797	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1657960215006, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657960217558	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657960219302	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657960221029	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657961885866	Marionette	INFO	Stopped listening on port 62616
+7961136647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63599" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileIojAmR"
+1657961137417	Marionette	INFO	Marionette enabled
+1657961137423	Marionette	INFO	Listening on port 63615
+WebDriver BiDi listening on ws://localhost:63599
+Read port: 63615
+1657961137693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileIojAmR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63599/devtools/browser/f3378d75-b013-4071-b70f-3bb88a8ef247
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1657961165996, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657961880491	Marionette	INFO	Stopped listening on port 63615
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "63734" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileehrhJj"
+1657961209350	Marionette	INFO	Marionette enabled
+1657961209357	Marionette	INFO	Listening on port 63754
+WebDriver BiDi listening on ws://localhost:63734
+Read port: 63754
+1657961209630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileehrhJj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63734/devtools/browser/87da2169-474d-43de-8c82-4b621276d457
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2063-s.js?_t=1657961228972, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657961233220	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657961881128	Marionette	INFO	Stopped listening on port 63754
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "64208" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileNs4EPn"
+1657961529379	Marionette	INFO	Marionette enabled
+1657961529387	Marionette	INFO	Listening on port 64223
+WebDriver BiDi listening on ws://localhost:64208
+Read port: 64223
+1657961529669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileNs4EPn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64208/devtools/browser/f29e1d61-d608-42b1-97f7-84e4f7baec91
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657961540289	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657961882387	Marionette	INFO	Stopped listening on port 64223
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "64367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilex2qo96"
+1657961586395	Marionette	INFO	Marionette enabled
+1657961586404	Marionette	INFO	Listening on port 64387
+WebDriver BiDi listening on ws://localhost:64367
+Read port: 64387
+1657961586746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilex2qo96\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64367/devtools/browser/7c4211b4-b7d0-4b66-9602-e4463d8678fb
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657961601248	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657961603970	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657961606724	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:82714
+ajax@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:78291
+checkIsExportExcel@http://10.0.3.243:8088/seal/sealApply/preList.htm:1887:5
+success@http://10.0.3.243:8088/seal/sealApply/preList.htm:1878:6
+c@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:28327
+fireWith@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:29072
+l@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:79901
+send/o/<@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:82355
+send@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:82714
+ajax@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:78291
+onload@http://10.0.3.243:8088/seal/sealApply/preList.htm:1861:5
+@http://10.0.3.243:8088/seal/sealApply/preList.htm:1373:3
+e@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:30038
+Deferred/then/l/</t<@http://10.0.3.243:8088/resources/js/plugin/jquery-3.6.0.min.js:2:30340
+1657961889271	Marionette	INFO	Stopped listening on port 64387
+7961880487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65006" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilerDbGlU"
+1657961881717	Marionette	INFO	Marionette enabled
+1657961881726	Marionette	INFO	Listening on port 65025
+WebDriver BiDi listening on ws://localhost:65006
+Read port: 65025
+1657961882025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilerDbGlU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65006/devtools/browser/5fd80802-6d22-4898-86a3-85f47fb9a0b0
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657961889598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657961943928	Marionette	INFO	Stopped listening on port 65025
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1660017265657	geckodriver	INFO	Listening on 127.0.0.1:3133
+1660017268687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3134" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile7qtUuZ"
+1660017269144	Marionette	INFO	Marionette enabled
+1660017269151	Marionette	INFO	Listening on port 3153
+WebDriver BiDi listening on ws://localhost:3134
+Read port: 3153
+1660017269449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile7qtUuZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:3134/devtools/browser/27f7e8a7-7670-4ee6-8fa9-2d3b77a7982b
+1660017296163	Marionette	INFO	Stopped listening on port 3153
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1660017369999	geckodriver	INFO	Listening on 127.0.0.1:3322
+1660017373065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3323" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileqHpuLE"
+1660017373490	Marionette	INFO	Marionette enabled
+1660017373495	Marionette	INFO	Listening on port 3334
+WebDriver BiDi listening on ws://localhost:3323
+Read port: 3334
+1660017373751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileqHpuLE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:3323/devtools/browser/898c9204-0380-41ca-9622-44a04e6bcf18
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.3.243:8088"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660017422420	Marionette	INFO	Stopped listening on port 3334
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662715996969	geckodriver	INFO	Listening on 127.0.0.1:63720
+1662715999985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilehlDdIf"
+1662716001294	Marionette	INFO	Marionette enabled
+1662716001304	Marionette	INFO	Listening on port 63732
+WebDriver BiDi listening on ws://localhost:63721
+Read port: 63732
+1662716001904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilehlDdIf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63721/devtools/browser/74b269e8-0854-4de9-a9c1-f15ecfdd468f
+1662716174334	Marionette	INFO	Stopped listening on port 63732
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "63898" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilep8riFy"
+1662716124912	Marionette	INFO	Marionette enabled
+1662716124924	Marionette	INFO	Listening on port 63921
+WebDriver BiDi listening on ws://localhost:63898
+Read port: 63921
+1662716126084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilep8riFy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63898/devtools/browser/6db4cae3-abb3-4c17-a9b7-cb9d7a5a8886
+1662716173508	Marionette	INFO	Stopped listening on port 63921
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "64008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilepktzHs"
+1662716152502	Marionette	INFO	Marionette enabled
+1662716152510	Marionette	INFO	Listening on port 64036
+WebDriver BiDi listening on ws://localhost:64008
+Read port: 64036
+1662716153298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilepktzHs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64008/devtools/browser/64013256-1302-4b39-85fc-3410cd5414e2
+1662716171826	Marionette	INFO	Stopped listening on port 64036
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663145083461	geckodriver	INFO	Listening on 127.0.0.1:52027
+1663145086478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52028" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilekzHlut"
+1663145277868	geckodriver	INFO	Listening on 127.0.0.1:52733
+1663145280863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52734" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileIVjDCb"
+1663145281480	Marionette	INFO	Marionette enabled
+1663145281488	Marionette	INFO	Listening on port 52746
+WebDriver BiDi listening on ws://localhost:52734
+Read port: 52746
+1663145281887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileIVjDCb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52734/devtools/browser/5c88396d-f57c-4066-953e-092023e3ecbc
+JavaScript error: resource://services-settings/Utils.jsm, line 255: TypeError: Headers.set:  is an invalid header name.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1663145523988	Marionette	INFO	Stopped listening on port 52746
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "52909" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileTgNUN7"
+1663145365760	Marionette	INFO	Marionette enabled
+1663145365768	Marionette	INFO	Listening on port 52921
+WebDriver BiDi listening on ws://localhost:52909
+Read port: 52921
+1663145366228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileTgNUN7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52909/devtools/browser/507150bf-c898-4994-b248-0023d3aca65f
+1663145876138	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1663145894091	Marionette	INFO	Stopped listening on port 52921
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663145928459	geckodriver	INFO	Listening on 127.0.0.1:53928
+1663145931762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53929" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilePQtXFL"
+1663145932415	Marionette	INFO	Marionette enabled
+1663145932423	Marionette	INFO	Listening on port 53955
+WebDriver BiDi listening on ws://localhost:53929
+Read port: 53955
+1663145932815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilePQtXFL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53929/devtools/browser/d2855d7a-dc77-4a21-a0c9-9b930ed6217c
+JavaScript error: resource://services-settings/Utils.jsm, line 255: TypeError: Headers.set:  is an invalid header name.
+console.warn: services.settings: main/query-stripping sync already running
+1663146442645	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1663146459492	Marionette	INFO	Stopped listening on port 53955
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

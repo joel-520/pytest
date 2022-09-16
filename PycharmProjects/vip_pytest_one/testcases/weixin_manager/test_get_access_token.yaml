@@ -1,0 +1,13 @@
+-
+  story: 微信公共平台获取access_token接口
+  title: 验证获取access_token接口
+  request:
+    method: GET
+    url: https://api.weixin.qq.com/cgi-bin/token
+    params:
+      grant_type: client_credential
+      appid: wx5e10a7f9d9b8fcda
+      secret: b5c69fe3b157ce8efccb3eb08f8e4c79
+  extract:
+    access_token: '"access_token":"(.*?)"'
+  validate: null

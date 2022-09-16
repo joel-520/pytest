@@ -1,0 +1,20 @@
+-
+  story: 码尚商城接口
+  title: 验证账号登录接口
+  request:
+    method: post
+    url: ?s=user/login
+    params:
+      application: app
+      application_client_type: h5
+    data:
+     accounts: "Joel"
+     pwd: "yuehaitao0208"
+     type: "username"
+  extract:
+    token: '"token":"(.*?)"'
+  validate:
+    codes: 201
+    equals: {msg00: 登录成功}
+    contains: {code: 200}
+    databases: {code: "select databases"}

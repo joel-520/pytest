@@ -1,0 +1,16 @@
+-
+  story: pypwind登录接口
+  title: 验证pypwind登录接口
+  request:
+    method: GET
+    url: http://47.107.116.139/phpwind/index.php?m=u&c=login&a=dorun
+    headers:
+      Accept: 'application/json, text/javascript, /; q=0.01'
+      X-Requested-With: XMLHttpRequest
+    data:
+      username: Joel
+      password: 123456
+      backurl: "http://47.107.116.139/phpwind/"
+      invite: ""
+      csrf_token: ${read_yamls(csrf_token,1)}
+  validate: null

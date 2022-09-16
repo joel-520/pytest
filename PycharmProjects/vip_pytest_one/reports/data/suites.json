@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.product_manager",
+    "children" : [ {
+      "name" : "test_product",
+      "children" : [ {
+        "name" : "TestProduct",
+        "children" : [ {
+          "name" : "获取鉴权码access token接口1",
+          "uid" : "8d9db1867b1f7b43",
+          "parentUid" : "87b7177194ef914bb3391861c8211fc9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650462416141,
+            "stop" : 1650462416522,
+            "duration" : 381
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "获取鉴权码access token接口2",
+          "uid" : "936b1e2feadfa6e4",
+          "parentUid" : "87b7177194ef914bb3391861c8211fc9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650462416529,
+            "stop" : 1650462416834,
+            "duration" : 305
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "获取鉴权码access token接口3",
+          "uid" : "3cdf8df305b67028",
+          "parentUid" : "87b7177194ef914bb3391861c8211fc9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650462416841,
+            "stop" : 1650462417102,
+            "duration" : 261
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "87b7177194ef914bb3391861c8211fc9"
+      } ],
+      "uid" : "25119a38fe62ab625c5ddaa0c9e7cbc1"
+    } ],
+    "uid" : "6f353331fc15f1f4a5e75f7fb8ef617a"
+  } ]
+}

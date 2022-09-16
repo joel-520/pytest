@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Mon Sep 05 17:07:08 CST 2022","Mon Sep 05 17:07:08 CST 2022","0","testcases","test_login","TestLogin","","","test_order_list[sql0]",""
+"passed","Mon Sep 05 17:07:08 CST 2022","Mon Sep 05 17:07:08 CST 2022","0","testcases","test_login","TestLogin","","","用例名称：Register","描述：Register验证"
+"passed","Mon Sep 05 17:07:08 CST 2022","Mon Sep 05 17:07:08 CST 2022","10","testcases","test_login","TestLogin","","","用例名称：Login登录","测试登录"
+"passed","Mon Sep 05 17:07:08 CST 2022","Mon Sep 05 17:07:08 CST 2022","10","testcases","test_login","TestLogin","","","用例名称：Login登录","测试登录"
+"passed","Mon Sep 05 17:07:08 CST 2022","Mon Sep 05 17:07:08 CST 2022","0","testcases","test_login","TestLogin","","","用例名称：Register","描述：Register验证"
+"skipped","Mon Sep 05 17:07:08 CST 2022","Mon Sep 05 17:07:08 CST 2022","0","testcases","test_login","TestLogin","","","test_order_list[sql1]",""

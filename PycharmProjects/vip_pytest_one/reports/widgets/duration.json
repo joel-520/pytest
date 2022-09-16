@@ -1,0 +1,31 @@
+[ {
+  "uid" : "3cdf8df305b67028",
+  "name" : "获取鉴权码access token接口3",
+  "time" : {
+    "start" : 1650462416841,
+    "stop" : 1650462417102,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "936b1e2feadfa6e4",
+  "name" : "获取鉴权码access token接口2",
+  "time" : {
+    "start" : 1650462416529,
+    "stop" : 1650462416834,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8d9db1867b1f7b43",
+  "name" : "获取鉴权码access token接口1",
+  "time" : {
+    "start" : 1650462416141,
+    "stop" : 1650462416522,
+    "duration" : 381
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

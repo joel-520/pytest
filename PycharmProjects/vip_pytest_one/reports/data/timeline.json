@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-TH72TCVB",
+    "children" : [ {
+      "name" : "104828-MainThread",
+      "children" : [ {
+        "name" : "获取鉴权码access token接口1",
+        "uid" : "8d9db1867b1f7b43",
+        "parentUid" : "d08a28c1fd883ac0a780b02eda978206",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650462416141,
+          "stop" : 1650462416522,
+          "duration" : 381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取鉴权码access token接口3",
+        "uid" : "3cdf8df305b67028",
+        "parentUid" : "d08a28c1fd883ac0a780b02eda978206",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650462416841,
+          "stop" : 1650462417102,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取鉴权码access token接口2",
+        "uid" : "936b1e2feadfa6e4",
+        "parentUid" : "d08a28c1fd883ac0a780b02eda978206",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650462416529,
+          "stop" : 1650462416834,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d08a28c1fd883ac0a780b02eda978206"
+    } ],
+    "uid" : "01bf17b9083db54c1209972ad2fd1a45"
+  } ]
+}
